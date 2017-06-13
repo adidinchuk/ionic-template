@@ -10,37 +10,42 @@
 <ion-content>
 
   <ion-card *ngFor="let item of cardItems">
-
-    <ion-item>
+    <ion-item >
       <ion-avatar item-start>
-        <img [src]="item.user.avatar">
+        <img [src]="item.channel.icon">
       </ion-avatar>
-      <h2>{{item.user.name}}</h2>
-      <p>{{item.date}}</p>
+      <div>
+        <h2>{{item.channel.name}}</h2>
+      </div>
+      <ion-avatar item-start>
+        <img [src]="item.type">
+      </ion-avatar>
+      
+      
     </ion-item>
 
-    <img [src]="item.image">
+    <!--img [src]="item.image"-->
 
     <ion-card-content>
-      <p>{{item.content}}</p>
+      <p>{{item.title}}</p>
     </ion-card-content>
 
     <ion-row>
       <ion-col>
         <button ion-button color="primary" clear small icon-left>
-            <ion-icon name='thumbs-up'></ion-icon>
-            12 Likes
+            <ion-icon name='more'></ion-icon>
+            See notification details
           </button>
       </ion-col>
       <ion-col>
         <button ion-button color="primary" clear small icon-left>
-            <ion-icon name='text'></ion-icon>
-            4 Comments
+            <ion-icon name='trash'></ion-icon>
+            Remove this notification
           </button>
       </ion-col>
       <ion-col center text-center>
         <ion-note>
-          11h ago
+          {{item.timestamp}}
         </ion-note>
       </ion-col>
     </ion-row>

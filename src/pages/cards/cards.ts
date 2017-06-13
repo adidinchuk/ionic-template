@@ -11,31 +11,43 @@ export class CardsPage {
   constructor(public navCtrl: NavController) {
     this.cardItems = [
       {
-        user: {
-          avatar: 'assets/img/marty-avatar.png',
-          name: 'Marty McFly'
+        channel: {
+          icon: 'assets/img/server1.png',
+          name: 'Server Health',
+          color: '#27ae60'
         },
-        date: 'November 5, 1955',
-        image: 'assets/img/advance-card-bttf.png',
-        content: 'Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.',
+        timestamp: 'November 5, 1955',
+        resource: 'assets/img/advance-card-bttf.png',
+        details: 'High CPU utilization, 89%.',
+        source: 'http://kartau.com',
+        title: 'High CPU utilization.',
+        type: 'assets/img/alert.png'
       },
       {
-        user: {
-          avatar: 'assets/img/sarah-avatar.png.jpeg',
-          name: 'Sarah Connor'
+        channel: {
+          icon: 'assets/img/server2.png',
+          name: 'Home Automation',
+          color: '#f39c12'
         },
-        date: 'May 12, 1984',
-        image: 'assets/img/advance-card-tmntr.jpg',
-        content: 'I face the unknown future, with a sense of hope. Because if a machine, a Terminator, can learn the value of human life, maybe we can too.'
+        timestamp: '07/07/2017 04:10:12',
+        resource: 'assets/img/advance-card-tmntr.jpg',
+        details: 'Living room status: Temp - 20C, Humidity 12%.',
+        source: 'pi',
+        title: 'Living room status',
+        type: 'assets/img/notification.jpg'
       },
       {
-        user: {
-          avatar: 'assets/img/ian-avatar.png',
-          name: 'Dr. Ian Malcolm'
+        channel: {
+          icon: 'assets/img/server1.png',
+          name: 'Server Health',
+          color: '#27ae60'
         },
-        date: 'June 28, 1990',
-        image: 'assets/img/advance-card-jp.jpg',
-        content: 'Your scientists were so preoccupied with whether or not they could, that they didn\'t stop to think if they should.'
+        timestamp: '07/06/2017 14:12:22',
+        resource: 'assets/img/advance-card-jp.jpg',
+        details: 'Confirmation email send has encountered an issue and failed to send. Stack trace: blah blah.',
+        source: 'jerseysmadeeasy.com',
+        title: 'Email send exception thrown',
+        type: 'assets/img/error.png'
       }
     ];
 

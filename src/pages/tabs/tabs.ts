@@ -2,28 +2,28 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { TranslateService } from '@ngx-translate/core';
 
-import { Tab1Root } from '../pages';
-import { Tab2Root } from '../pages';
-import { Tab3Root } from '../pages';
+import { FeedRoot } from '../pages';
+import { ChannelRoot } from '../pages';
+import { SettingsRoot } from '../pages';
 
 @Component({
   selector: 'page-tabs',
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
-  tab1Root: any = Tab1Root;
-  tab2Root: any = Tab2Root;
-  tab3Root: any = Tab3Root;
+  feedRoot: any = FeedRoot;
+  channelRoot: any = ChannelRoot;
+  settingsRoot: any = SettingsRoot;
 
-  tab1Title = " ";
-  tab2Title = " ";
-  tab3Title = " ";
+  feedRootTitle = " ";
+  channelRootTitle = " ";
+  settingsRootTitle = " ";
 
   constructor(public navCtrl: NavController, public translateService: TranslateService) {
-    translateService.get(['TAB1_TITLE', 'TAB2_TITLE', 'TAB3_TITLE']).subscribe(values => {
-      this.tab1Title = values['TAB1_TITLE'];
-      this.tab2Title = values['TAB2_TITLE'];
-      this.tab3Title = values['TAB3_TITLE'];
+    translateService.get(['FEED_ROOT_TITLE', 'CHANNEL_ROOT_TITLE', 'SETTINGS_ROOT_TITLE']).subscribe(values => {
+      this.feedRootTitle = values['FEED_ROOT_TITLE'];
+      this.channelRootTitle = values['CHANNEL_ROOT_TITLE'];
+      this.settingsRootTitle = values['SETTINGS_ROOT_TITLE'];
     });
   }
 }

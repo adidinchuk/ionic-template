@@ -8,9 +8,9 @@
   "LOGIN": "Sign in",
   "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Items",
-  "TAB2_TITLE": "Search",
-  "TAB3_TITLE": "Settings",
+  "FEED_ROOT_TITLE": "Feed",
+  "CHANNEL_ROOT_TITLE": "Channels",
+  "SETTINGS_ROOT_TITLE": "Settings",
 
   "MAP_TITLE": "Map",
 
@@ -51,11 +51,12 @@
 
   "LIST_MASTER_TITLE": "Items",
 
-  "ITEM_CREATE_TITLE": "New Item",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
+  "ITEM_CREATE_TITLE": "New Channel",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Add Icon",
 
-  "ITEM_NAME_PLACEHOLDER" : "Name",
-  "ITEM_ABOUT_PLACEHOLDER" : "About",
+  "ITEM_NAME_PLACEHOLDER" : "Channel Name",
+  "ITEM_DESCRIPTION_PLACEHOLDER" : "Channel Description",
+  "ITEM_PRIORITY_PLACEHOLDER" : "Channel Priority",
 
   "DONE_BUTTON" : "Done",
   "CANCEL_BUTTON" : "Cancel",

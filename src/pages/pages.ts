@@ -1,5 +1,5 @@
 import { ListMasterPage } from './list-master/list-master';
-import { SearchPage } from './search/search';
+import { CardsPage } from './cards/cards';
 import { SettingsPage } from './settings/settings';
 import { TabsPage } from './tabs/tabs';
 import { WelcomePage } from './welcome/welcome';
@@ -12,6 +12,6 @@ export const FirstRunPage = WelcomePage;
 export const MainPage = TabsPage;
 
 // The initial root pages for our tabs (remove if not using tabs)
-export const Tab1Root = ListMasterPage;
-export const Tab2Root = SearchPage;
-export const Tab3Root = SettingsPage;
+export const FeedRoot = CardsPage;
+export const ChannelRoot = ListMasterPage;
+export const SettingsRoot = SettingsPage;

@@ -9,8 +9,10 @@ export class Items {
 
   defaultItem: any = {
     "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "icon": "assets/img/speakers/bear.jpg",
+    "description": "Burt is a Bear.",
+    "priority": "High",
+    "notificationTypes": "Warining"
   };
 
 
@@ -18,38 +20,52 @@ export class Items {
     let items = [
       {
         "name": "Burt Bear",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "icon": "assets/img/speakers/bear.jpg",
+        "description": "Burt is a Bear.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       },
       {
         "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
+        "icon": "assets/img/speakers/cheetah.jpg",
+        "description": "Charlie is a Cheetah.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       },
       {
         "name": "Donald Duck",
-        "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
+        "icon": "assets/img/speakers/duck.jpg",
+        "description": "Donald is a Duck.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       },
       {
         "name": "Eva Eagle",
-        "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
+        "icon": "assets/img/speakers/eagle.jpg",
+        "description": "Eva is an Eagle.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       },
       {
         "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
+        "icon": "assets/img/speakers/elephant.jpg",
+        "description": "Ellie is an Elephant.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       },
       {
         "name": "Molly Mouse",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
+        "icon": "assets/img/speakers/mouse.jpg",
+        "description": "Molly is a Mouse.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       },
       {
         "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "icon": "assets/img/speakers/puppy.jpg",
+        "description": "Paul is a Puppy.",
+        "priority": "High",
+        "notificationTypes": "Warining"
       }
     ];
 

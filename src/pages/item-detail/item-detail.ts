@@ -11,6 +11,7 @@ export class ItemDetailPage {
   item: any;
 
   constructor(public navCtrl: NavController, navParams: NavParams, items: Items) {
+    console.log(this.item);
     this.item = navParams.get('item') || items.defaultItem;
   }
 

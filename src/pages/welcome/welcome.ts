@@ -18,9 +18,9 @@ import { Http } from '@angular/http';
 export class WelcomePage {
 
   constructor(public navCtrl: NavController, public http: Http) {     
-   this.http.get('http://ec2-52-70-130-4.compute-1.amazonaws.com:1337').map(res => res.json()).subscribe(data => {
-        alert(data.test);
-    });
+   //this.http.get('http://ec2-52-70-130-4.compute-1.amazonaws.com:1337').map(res => res.json()).subscribe(data => {
+      //  alert(data.test);
+    //});
   }
 
   login() {
